@@ -1,0 +1,40 @@
+.all-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.section-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-banner{
+    display: flex;
+    flex-direction: row;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.b2-form{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.banner-3{
+    
+}
