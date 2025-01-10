@@ -8,75 +8,55 @@
 </head>
 <body>
     <div class="all-container">
-
         <div class="section-1">
-
             <div class="title-banner">
-
-          
-                <img src="assets/odin-lined.png" class="title-picture" alt="odin-sybmbol">
+                <img src="assets/odin-lined.png" class="title-picture" alt="odin-symbol">
                 <div class="title">ODIN</div>
-
             </div>
-
             <div class="photo-footer">Photo by <a href="" style="color: white;">Halie West </a> on <a href="" style="color: white;">Unsplash</a></div>
-
         </div>
 
-
         <div class="section-2">
-
             <div class="banner-1">
-
-                <div class="b1-t1">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</div>
+                <div class="b1-t1"><p>This is not a real online service! You know you need something like this <br> in your life to help you realize your deepest dreams.<br>Sign up now to get started.</p></div>
                 <div class="b2-t2">You know you want to.</div>
-
             </div>
 
             <div class="banner-2">
-
                 <div class="b2-title">Let's do this!</div>
                 <div class="b2-form">
-                    
                     <div class="fist-row">
                         <div class="first-name">FIRST NAME</div>
-                        <input class="first-name-input" type="text">
+                        <input type="text" style="width: 200px; border: 1px solid #E5E7EB;">
 
                         <div class="email">Email</div>
-                        <input type="text" class="email-input">
+                        <input type="email"  style="width: 200px; border: 1px solid #E5E7EB;">
 
                         <div class="password">Password</div>
-                        <input type="password" class="password-input">
+                        <input type="password" id="password" style="width: 200px; border: 1px solid #E5E7EB;">
                     </div>
 
                     <div class="second-row">
                         <div class="last-name">Last Name</div>
-                        <input type="text" class="last-name">
+                        <input type="text" style="width: 200px; border: 1px solid #E5E7EB;">
 
                         <div class="phone-number">Phone Number</div>
-                        <input type="text" class="phone-number-input">
+                        <input type="text" style="width: 200px; border: 1px solid #E5E7EB;">
 
                         <div class="confirm-password">Confirm Password</div>
-                        <input type="password" class="confirm-password-input">
-                        
+                        <input type="password" id="confirmPassword" style="width: 200px; border: 1px solid #E5E7EB;">
                     </div>
-
-
-
                 </div>
-
             </div>
 
             <div class="banner-3">
-
-                <button>Create Account</button>
-                <div class="b3-login">Already have an account? <a href="#" class="login">Log In</a></div>
-
+                    <button class="create-bt" type="submit" onclick="validatePassword()">Create Account</button>
+                    <div class="b3-login">Already have an account? <a href="#" class="login">Log In</a></div>
+                </div>
             </div>
-
         </div>
-
     </div>
-    
+
+    <script src="index.js"></script>
 </body>
 </html>
