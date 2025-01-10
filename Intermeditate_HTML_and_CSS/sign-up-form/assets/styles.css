@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Norse Bold';
+    src: url('./Fonts/Norse-Bold.otf');
+}
+
+body, html{
+    padding: 0;
+    margin: 0;
+    
+}
+
 .all-container{
     display: flex;
     flex-direction: row;
@@ -7,13 +18,52 @@
 .section-1{
     display: flex;
     flex-direction: column;
+
+    background-image: url('/assets/background_picture.avif');
+    background-size: cover;
+    height: 100vh;
+    width: 45%;
+
+    
 }
 
 .title-banner{
     display: flex;
     flex-direction: row;
+
+    margin-top: 155px;
+    height: 150px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    gap: 10px;
+
+    justify-content: center;
+    align-items: center;
+    
 }
 
+.title-picture{
+    height: 110px;
+    width: 105px;
+}
+
+.title{
+    color: white;
+    font-size: 80px;
+    font-family: 'Norse Bold', sans-serif;
+}
+
+.photo-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    gap: 4px;
+    margin-top: auto;
+    margin-bottom: 10px;
+
+}
 .section-2{
     display: flex;
     flex-direction: column;
