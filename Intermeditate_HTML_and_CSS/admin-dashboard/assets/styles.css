@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.all-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* Dashboard */
+.dashboard{
+    background-color: lightblue;
+    height: 100vh;
+    width: 20vw;
+}
+
+
+.dashboard-header{
+    display: flex;
+    gap: 1vh;
+    margin-bottom: 5vh;
+
+}
+
+.dashboard-title-sybmbol{
+
+}
+
+.dashboaryd-title{
+
+}
+
+.dashboard-content-1{
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+
+    margin-bottom: 10vh;
+
+}
+
+
+.dashboard-content-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+
+
+}
+
+.dashboard-symbol{
+
+}
+
+.dashboard-text{
+    
+}
+
+/* Second Section */
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Search Bar */
+
+.search-bar{
+    background-color: white;
+    width: 80vw;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-template-rows: repeat(2,2fr);
+
+}
+
+.dashboard-header{
+    display: flex;
+}
+
+.search-bar-tiny-symbol{
+
+}
+
+.search-bar-symbol{
+
+}
+
+
+
+/* Project Section */
+
+.project-section{
+    background-color: rgb(201, 198, 198);
+    width: 80vw;
+    height: 80vh;
+}
