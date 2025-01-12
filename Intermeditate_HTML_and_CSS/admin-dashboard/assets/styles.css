@@ -9,42 +9,86 @@
 }
 
 /* Dashboard */
+
 .dashboard{
     background-color: lightblue;
     height: 100vh;
     width: 20vw;
 }
 
-
-.dashboard-header{
-    display: flex;
-    gap: 1vh;
+.dashboard-header {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Dynamic sizing for the icon and title */
+    grid-template-rows: 1fr;
+    
     margin-bottom: 5vh;
-
+    margin-top: 2vh;
+   
+    margin-left: 0vw;
+    width: 1vw;
 }
-
-.dashboard-title-sybmbol{
-
+  
+.dashboard-title-symbol {
+    place-self: center;
+  }
+  
+.dashboard-title-symbol svg {
+    width: 9vw; 
+    height: 9vh; 
 }
-
-.dashboaryd-title{
-
+  
+.dashboard-title{
+    font-size: 3vh;
+    place-self: center;
 }
-
+  
 .dashboard-content-1{
-    display: inline-grid;
+    display: grid;
+
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
-
+   
+    
     margin-bottom: 10vh;
+    width: 15vw;
 
 }
+
+
+.dashboard-text{
+    
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-weight: bolder;
+    
+
+   
+
+}
+
+.dashboard-symbol{
+    place-self: center;
+    
+
+}
+
+.dashboard-symbol svg{
+    width: 6vw;
+    height: 6vh;
+}
+
+
 
 
 .dashboard-content-2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    width: 15vw;
+ 
+    
 
 
 
@@ -79,9 +123,7 @@
 
 }
 
-.dashboard-header{
-    display: flex;
-}
+
 
 .search-bar-tiny-symbol{
 
